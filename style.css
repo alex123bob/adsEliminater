@@ -1,0 +1,39 @@
+.adEliminater_hover{
+	border:#000 1px solid;cursor:pointer;background-color: #C2D8FA;
+}
+
+.adsEliminater_info_pannel{
+position:absolute;
+background-color: #1ABB84;
+line-height: 30px;
+text-align: center;
+width:100%;
+height:150px;z-index:999999999;
+overflow:scroll;
+}
+
+.tagPath span,.idPath span,.classPath span{
+	min-width: 40px;
+	background-color: rgb(155, 184, 229);
+	padding:5px;
+}
+
+.tagPath span:hover,.idPath span:hover,.classPath span:hover{
+	background-color: rgb(7, 99, 240);
+	cursor:pointer;
+}
+
+
+.adsEliminater_info_pannel .leftDiv{float:left;  margin-left: 20%}
+.adsEliminater_info_pannel .rightDiv{float:right;margin-right: 20%}
+
+.adsEliminater_info_pannel .btnCancel,.adsEliminater_info_pannel .btnOk{
+margin-left: 5px;
+  padding: 5px;
+  width: 100px;
+  margin: 20px 15px;
+ }
+.adsEliminater_info_pannel .btnCancel:hover,.adsEliminater_info_pannel .btnOk:hover{
+cursor:pointer;
+background-color:aliceblue;
+}
