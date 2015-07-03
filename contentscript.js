@@ -1,5 +1,5 @@
 status('enabled');
-
+console.log("begin");
 var selectedDomEle;
 var tmpSelectedDomEle;
 var selectedDomElePath;
